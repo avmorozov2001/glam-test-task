@@ -15,8 +15,8 @@ async def get_photos(username: str, max_count: int) -> dict:
 
 async def scrape_photos(username: str, max_count: int) -> List[str]:
     options = Options()
-    options.add_argument('--proxy-server=socks5://45.93.70.123:8000')
-    options.add_argument("--user-data-dir=C:\\Users\\dc-1e\\Desktop\\glam_test_task\\chrome")
+    options.add_argument('--proxy-server=<your_proxy_type>://<your_proxy_ip>:<your_proxy_port>')
+    options.add_argument("--user-data-dir=<your_user_data_dir>")
     photos = []
     driver = webdriver.Chrome(options=options)
     driver.get(f"https://www.instagram.com/{username}/")
