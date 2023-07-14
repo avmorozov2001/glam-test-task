@@ -9,7 +9,7 @@ This is a FastAPI application that scrapes Instagram photos from a user profile 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/instagram-scraper.git
+git clone https://github.com/avmorozov2001/instagram-scraper.git
 cd instagram-scraper
 ```
 
